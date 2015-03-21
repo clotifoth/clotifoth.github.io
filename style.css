@@ -8,12 +8,14 @@ p{
 	width: 80%;
 	padding: 1%;
 	border: 5% rgb(20,20,20);
-	margin: 5% 10% 5%;
+	margin: 5% 11% 5% 9%;
 	
 	font-size: 125%;
 	text-align: justify;
-	color: rgb(40,40,40);
-	
+	color: rgb(120,120,150);
+	background-color: white;
+	transition: color 0.3s, background-color 0.3s;
+	-webkit-transition: color 0.3s, background-color 0.3s;
 }
 
 h1{
@@ -25,4 +27,16 @@ h1{
 
 	text-align: centered;
 	font-size: 250%;
+	
+	color: rgb(50,0,255);
+	background-color: white;
+}
+
+p:hover{
+	color: rgb(100,100,255);
+	background-color: rgb(253,253,255);
+}
+
+h1.start{
+	margin: 5% 10% 10% 10%;
 }
