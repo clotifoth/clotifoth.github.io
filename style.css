@@ -3,3 +3,26 @@ body {
 	font-style: normal;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+p{
+	width: 80%;
+	padding: 1%;
+	border: 5% rgb(20,20,20);
+	margin: 5% 10% 5%;
+	
+	font-size: 125%;
+	text-align: justify;
+	color: rgb(40,40,40);
+	
+}
+
+h1{
+	width: 90%;
+	padding: 0%;
+	border: 0%;
+	margin: 10%;
+	position: relative;
+
+	text-align: centered;
+	font-size: 250%;
+}
