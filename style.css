@@ -19,24 +19,27 @@ p{
 }
 
 h1{
-	width: 90%;
-	padding: 0%;
-	border: 0%;
-	margin: 10%;
 	position: relative;
 
-	text-align: centered;
+	text-align: center;
 	font-size: 250%;
 	
 	color: rgb(50,0,255);
 	background-color: white;
 }
 
+h2{
+	position: relative;
+
+	color: rgb(75,20,255);
+	background-color: white;
+
+	text-align: center;
+	font-size: 170%;
+	
+}
+
 p:hover{
 	color: rgb(100,100,255);
 	background-color: rgb(253,253,255);
-}
-
-h1.start{
-	margin: 5% 10% 10% 10%;
 }
