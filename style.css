@@ -39,7 +39,7 @@ h2{
 	
 }
 
-p:hover, p:active{
+p:hover{
 	color: rgb(100,100,255);
 	background-color: rgb(253,253,255);
 }
