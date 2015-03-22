@@ -39,7 +39,31 @@ h2{
 	
 }
 
+h3{
+	position: relative;
+
+	color: rgb(95,20,210);
+	background-color: white;
+
+	text-align: center;
+	font-size: 140%;
+	
+}
+
+a{
+	color: CornflowerBlue;
+	background-color: white;
+	text-decoration: none;
+	transition: color 0.1s, background-color 0.1s;
+	-webkit-transition: color 0.1s, background-color 0.1s;
+}
+
 p:hover, p:active{
 	color: rgb(100,100,255);
+	background-color: rgb(253,253,255);
+}
+
+a:active{
+	color: LightCyan;
 	background-color: rgb(253,253,255);
 }
