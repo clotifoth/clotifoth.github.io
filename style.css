@@ -63,6 +63,11 @@ p:hover, p:active{
 	background-color: rgb(253,253,255);
 }
 
+a:hover{
+	color: rgb(155,174,237); /* CornflowerBlue but slightly lighter */
+	background-color: rgb(253,253,255);
+}
+
 a:active{
 	color: LightCyan;
 	background-color: rgb(253,253,255);
