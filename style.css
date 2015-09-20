@@ -39,19 +39,6 @@ a {
   background-color: white;
   text-decoration: none;
 }
-p:hover, p:active {
-  color: #6464ff;
-  background-color: #fdfdff;
-}
-
-a:hover, a.project-header:hover{
-  color: #9baeed;
-  background-color: #fdfdff;
-}
-a:active, a.project-header:active {
-  color: LightCyan;
-  background-color: #fdfdff;
-}
 
 a.project-header {
   position: relative;
@@ -97,5 +84,19 @@ p.project-description {
   font-size: 125%;
   text-align: justify;
   color: #787896;
+  background-color: #fdfdff;
+}
+
+p:hover, p:active {
+  color: #6464ff;
+  background-color: #fdfdff;
+}
+
+a:hover, a.project-header:hover{
+  color: #9baeed;
+  background-color: #fdfdff;
+}
+a:active, a.project-header:active {
+  color: LightCyan;
   background-color: #fdfdff;
 }
