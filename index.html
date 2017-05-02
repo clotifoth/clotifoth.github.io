@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="./style.css" rel="stylesheet" title="www" type="text/css" />
+        <title>Frederick Brunn</title>
+    </head>
+    <body>
+        
+        <div id="intro" class="section_container">
+            <h2>Frederick Brunn
+            </h2>
+            <h3>frederick.brunn@gmail.com</h3>
+            <table>
+                <tr>
+                    <td class="key value">
+                        <img class="profile_image" src="image.jpg"></img>
+                        <table>
+                            <tr>
+                                <td class="company">
+                                    <a id="resume-link" href="resume.pdf" target="_blank">Resume</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="value">
+                        <p>Welcome to my professional abode! I'm Frederick Brunn, and I'm a web developer with a B.S. in Computer Science from Stony Brook University. I'm very interested in the user experience and thus I aim to ask just the right questions to further understand the user requirements, ensuring the development of an optimal product. In particular, I like designing front-end user interfaces, but I also have experience writing back-end code. When I'm relaxing, I enjoy studying world history, playing roguelikes and retro games, and discovering new music of all genres.
+                            <br /> <br />
+                        Continue down my page to read more about my experience and projects.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="projects" class="section_container">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <td class="key">
+                        <a class="project-header">Tools</a>
+                        <div class="placeholder" />
+                    </td>
+                    <td class="key">
+                        <a class="project-header">Web</a>
+                        <div class="placeholder" />
+                    </td>
+                    <td class="key">
+                        <a class="project-header">Application</a>
+                        <div class="placeholder" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value">
+                            <ul>
+                                <li>Trello</li>
+                                <li>Git</li>
+                                <li>GNU/Linux</li>
+                                <li>Blender</li>
+                            </ul>
+                    </td>
+                    <td class="value">
+                            <ul>
+                                <li>Node.js, Express, SCSS, Pug/Jade, Firebase, Grunt</li>
+                                <li>JSP, MySQL, Glassfish, Servlets</li>
+                                <li>PHP</li>
+                            </ul>
+                    </td>
+                    <td class="value">
+                        <ul>
+                            <li>C#, WPF</li>
+                            <li>JavaFX</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="experience" class="section_container">
+            <h2 id="social">Professional Experience</h2>
+            <table>
+                <tr>
+                    <td class="value company">
+                        <h3>Bren-Tronics, Inc.</h3>
+                        <h4>Software Engineer Internship
+                            <br />
+                            May 2015 - August 2015
+                        </h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>During my time at Bren-Tronics, I developed a C# application that monitors ARM-enabled battery chargers via JSON over UDP and visualizes data in novel ways with OxyPlot. I also wrote Bootstrap-based documentation for the application. Additionally, I wrote a C# application to test home energy system using SCPI. Working at Bren-Tronics was a fantastic experience. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value company">
+                        <h3>SonAER, Inc.</h3>
+                        <h4>Robotics Specialist Internship
+                            <br />
+                            June 2014 - August 2014
+                        </h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>At SonAER, I developed electronics and a modified firmware solution for use in an ultrasonic atomizer nozzle 3D printer. The electronics were based off of a common RepRap board, running a version of the Marlin firmware written in C, but with an ultrasonic atomizer nozzle replacing the hot-end to apply chemical coatings onto objects placed in the build area. </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="projects" class="section_container">
+            <h2>Projects</h2>
+            <table>
+                    <tr>
+                        <td class="key">
+                            <a class="project-header" href="https://github.com/clotifoth/wallpaper-reddit" target="_blank">wallpaper-reddit</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="https://canary-life.firebaseapp.com/" target="_blank">Canary Life</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="https://github.com/clotifoth/RedditScraper" target="_blank">RedditScraper</a>
+                            <div class="placeholder" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="value">
+                            <p class="project-description">wallpaper-reddit harnesses extant Reddit user activity to curate wallpapers. There are many subreddits that focus on aesthetic, natural, or other beauty, which this program harnesses to maintain a regularly changing background of those subreddits' most prominent posts. This Python program scans JSON headers of the last few posts from the user-supplied subreddits, then chooses a random image among them to be resized and set as the desktop wallpaper. </p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">Set in the far future where advanced human spacecraft take the form of automata, Canary Life is a Node.js / Express / SCSS / Pug / Firebase responsive web application. Canary Life consists of an HTML5 Canvas game based on Conway's Game of Life, a level editor that loads and saves levels to the Canary Life level database, a message board and wikia system. Canary Life was developed using an Agile-like methodology as part of a team of four. </p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">RedditScraper is a tool for archiving Reddit threads to local storage. In this project, I built a C# program which reads a series of reddit URLs from a text file, then uses HTML Action Pack to scrape the HTML content of both the main content / link and the comments section to a local file. These files are organized by default in folders by subreddit, then thread. For easy readability, the external reddit stylesheet is added as a meta reference tag in each html file.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">
+                            <a class="project-header" href="coverletter.pdf" target="_blank">Cover Letter</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="litreview.pdf" target="_blank">Literature Review</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="newsrelease.pdf" target="_blank">News Release</a>
+                            <div class="placeholder" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="value">
+                            <p class="project-description">This is a cover letter, written for a technical writing class that I took at Stony Brook. </p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">This is a literature review about the CRISPR-Cas genomic editing tool and its suitability for human applications. After my research, I came to the conclusion that although CRISPR-Cas is rapidly approaching safety for human treatment testing, techniques have not become refined enough for testing.</p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">This is a news release, based on the launch of the Nintendo Switch with a reworked date, written for a technical writing class that I took at Stony Brook.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">
+                            <a class="project-header" href="resume.pdf" target="_blank">Resume</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="researchproposal.pdf" target="_blank">Project Proposal</a>
+                            <div class="placeholder" />
+                        </td>
+                        <td class="key">
+                            <a class="project-header" href="userinstructions.pdf" target="_blank">Instructions</a>
+                            <div class="placeholder" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="value">
+                            <p class="project-description">This is a resume, written originally long ago, but deeply refined and updated for a technical writing class that I took at Stony Brook. </p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">This is a research proposal proposing a human treatment achieved via CRISPR-Cas editing and making use of two established tools from the literature in a novel manner.</p>
+                        </td>
+                        <td class="value">
+                            <p class="project-description">These are user instructions on how to take a good clean shower, written for a technical writing class I took at Stony Brook.</p>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+        <!-- interests section -->
+
+        <div id="coursework" class="section_container">
+            <h2>Selected Coursework</h2>
+
+            <table>
+                <tr>
+                    <td class="value course">
+                        <h4><a class="project-header" href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#308" target="_blank">CSE 308</a> <br />
+                        <h4>Software Engineering</h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>I developed and deployed a <a href="https://canary-life.firebaseapp.com" target="_blank">scalable hybrid web application</a> using HTML5 Canvas, SCSS, Pug, and Firebase. I organized the team using an Agile-based workflow, a Trello board and a feature-branch based Git hosted on Bitbucket.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value course">
+                        <h4><a class="project-header" href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#336" target="_blank">CSE 336</a> <br />
+                        <h4>Internet Programming</h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>In CSE 336, I built projects with a Java EE stack. I built Angular / JSP views and used custom tags and EL to dynamically generate page content, along with a validation servlet. My efforts focused on design, with attention paid to user experience.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value course">
+                        <h4><a class="project-header" href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#305" target="_blank">CSE 305</a> <br />
+                        <h4>Database Systems</h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>I created a social network application using the JSP / MySQL / Tomcat stack as part of a team of three. Emphasis was placed on schema design, writing queries and views to store users, their connections, and their interactions.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value course">
+                        <h4><a class="project-header" href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#487" target="_blank">CSE 487</a> <br />
+                        <h4>Research in Computer Science</h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>I worked with <a href="http://www3.cs.stonybrook.edu/~pfodor/" target="_blank">Dr. Paul Fodor</a> in developing JavaFX course materials for two consecutive offerings of <a href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#114" target="_blank">CSE 114</a>. This chiefly consisted of two final projects, <a class="inline" href="http://cosmicwimpout.com/" target="_blank">Cosmic Wimpout</a> and <a href="https://en.wikipedia.org/wiki/Wheel_of_Fortune_(U.S._game_show)" target="_blank">Wheel of Fortune</a>, built in successive versions, so as to present students with a progressively developed standard for students to compare their work to.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="value course">
+                        <h4><a class="project-header" href="http://sb.cc.stonybrook.edu/bulletin/current/courses/cse/#334" target="_blank">CSE 334</a> <br />
+                        <h4>Introduction to Multimedia</h4>
+                    </td>
+                    <td class="value experience project-description">
+                        <p>I used Blender to create <a href="content/spacex-animation.mp4" target="_blank">a computer-generated animation</a> detailing a mission by the proposed SpaceX Interplanetary Transport System to Mars. I worked from scratch, creating models, shaders and animations to render video that I supplanted with a narration track.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="contact" class="section_container">
+            <h2 id="social">Contact me</h2>
+            <table>
+                <tr>
+                    <td class="value">
+                        <p>I would prefer for all inquiries to be sent to my email address, <a href="mailto:frederick.brunn@gmail.com">frederick.brunn@gmail.com</a>, but I am also available on LinkedIn. My phone number can be found in my resume. You can find links to my relevant social media accounts below.</p>
+                    </td>
+                </tr>
+            </table>
+                <span id="socialbar">
+                    <div class = "outer-social"><a href="https://www.twitter.com"><img src="twitter.png" class="social"></img></a></div>
+                    <div class = "outer-social"><a href="https://www.linkedin.com/in/frederick-brunn-059b5569/"><img src="linkedin.png" class="social"></img></a></div>
+                    <div class = "outer-social"><a href="https://github.com/clotifoth"><img src="github.png" class="social"></img></a></div>
+                </span>
+        </div>
+    </body>
+</html>
