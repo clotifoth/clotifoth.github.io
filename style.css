@@ -165,7 +165,7 @@ td.value a:hover {
 }
 
 a.project-header {
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-shadow: 2px 2px #073B3A;
     color: #DDB771;
     text-decoration: none;
@@ -176,16 +176,16 @@ a.project-header {
 }
 
 a.project-header:hover {
-    padding: 10px;
+    padding: 0.3em;
     border-radius: 55px;
     background-color: rgba(0,0,0,0);
     color: #EDC7A1;
 }
 a.project-header:not(:hover) {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     border-radius: 5px;
 }
 
